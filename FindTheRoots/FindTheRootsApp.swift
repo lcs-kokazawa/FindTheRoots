@@ -11,7 +11,10 @@ import SwiftUI
 struct FindTheRootsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                RootsCalculatorView()
+            }
+            
         }
     }
 }
