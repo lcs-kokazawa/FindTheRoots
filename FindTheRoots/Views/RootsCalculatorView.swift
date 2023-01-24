@@ -80,6 +80,11 @@ struct RootsCalculatorView: View {
                     
                 }
             }
+            
+            Text(result)
+                .font(Font.custom("Times New Roman",
+                                  size: 24.0,
+                                  relativeTo: .body))
             .padding()
             .navigationTitle("Find the Roots")
         }
